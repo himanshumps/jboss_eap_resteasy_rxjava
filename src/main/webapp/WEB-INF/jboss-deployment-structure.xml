@@ -3,7 +3,6 @@
     <deployment>
         <exclusions>
             <module name="org.jboss.resteasy.resteasy-jackson-provider"/>
-            <module name="resteasy-json-binding-provider"/>
         </exclusions>
         <dependencies>
             <module name="org.jboss.resteasy.resteasy-rxjava2"/>
