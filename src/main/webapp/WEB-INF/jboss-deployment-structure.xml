@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<jboss-deployment-structure>
+    <deployment>
+        <exclusions>
+            <module name="org.jboss.resteasy.resteasy-jackson-provider"/>
+            <module name="resteasy-json-binding-provider"/>
+        </exclusions>
+        <dependencies>
+            <module name="org.jboss.resteasy.resteasy-rxjava2"/>
+            <module name="org.jboss.resteasy.resteasy-jackson2-provider" services="import"/>
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
